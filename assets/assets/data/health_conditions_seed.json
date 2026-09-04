@@ -1,0 +1,590 @@
+{
+  "conditions": [
+    {
+      "id": "allergy",
+      "label": "Allergy Relief",
+      "group": "immunity-tonics",
+      "groupLabel": "Immunity & Tonics",
+      "iconKey": "bolt",
+      "productIds": [
+        "anurjana"
+      ],
+      "rawTerms": [
+        "Allergy"
+      ]
+    },
+    {
+      "id": "asthma",
+      "label": "Asthma & Breathing",
+      "group": "respiratory",
+      "groupLabel": "Cough, Cold & Respiratory",
+      "iconKey": "air",
+      "productIds": [
+        "asthama"
+      ],
+      "rawTerms": [
+        "Asthma"
+      ]
+    },
+    {
+      "id": "baby-tonic",
+      "label": "Baby Tonic",
+      "group": "kids-care",
+      "groupLabel": "Kids Care",
+      "iconKey": "child_care",
+      "productIds": [
+        "shishupal"
+      ],
+      "rawTerms": [
+        "Baby tonic"
+      ]
+    },
+    {
+      "id": "blood-purifier",
+      "label": "Blood Purifier",
+      "group": "skin-care",
+      "groupLabel": "Skin Care",
+      "iconKey": "spa",
+      "productIds": [
+        "sarsanil-capsule",
+        "sarsanil-syrup"
+      ],
+      "rawTerms": [
+        "Blood purifier"
+      ]
+    },
+    {
+      "id": "wounds",
+      "label": "Burns, Cuts & Wounds",
+      "group": "skin-care",
+      "groupLabel": "Skin Care",
+      "iconKey": "spa",
+      "productIds": [
+        "burnt-cream",
+        "septicure"
+      ],
+      "rawTerms": [
+        "Burns cuts & wounds",
+        "Wound healing"
+      ]
+    },
+    {
+      "id": "classical-care",
+      "label": "Classical Preparations",
+      "group": "general",
+      "groupLabel": "General Wellness",
+      "iconKey": "favorite",
+      "productIds": [
+        "abhyarishta",
+        "amritarishta",
+        "arjunarishta",
+        "ashokarishta",
+        "ashwagandhadi-choorn",
+        "ashwagandharishta",
+        "chandnasava",
+        "chandraprabha-vati",
+        "dashmularishta-kr",
+        "dhatu-paushtik-choorn",
+        "drakshasava",
+        "kumaryasava",
+        "lohasava",
+        "panchsakar-choorn",
+        "provita",
+        "punarnavasava",
+        "satawaryadi-choorn",
+        "supari-pak",
+        "yograj-guggul"
+      ],
+      "rawTerms": [
+        "Digestive & Tonic"
+      ]
+    },
+    {
+      "id": "colic",
+      "label": "Colic & Cramps",
+      "group": "digestive",
+      "groupLabel": "Digestive Health",
+      "iconKey": "restaurant",
+      "productIds": [
+        "colicon"
+      ],
+      "rawTerms": [
+        "Colic pain"
+      ]
+    },
+    {
+      "id": "constipation",
+      "label": "Constipation Relief",
+      "group": "digestive",
+      "groupLabel": "Digestive Health",
+      "iconKey": "restaurant",
+      "productIds": [
+        "laxanil"
+      ],
+      "rawTerms": [
+        "Laxative"
+      ]
+    },
+    {
+      "id": "cough",
+      "label": "Cough Relief",
+      "group": "respiratory",
+      "groupLabel": "Cough, Cold & Respiratory",
+      "iconKey": "air",
+      "productIds": [
+        "dee-kuf",
+        "dee-kuf-sf",
+        "kufnil"
+      ],
+      "rawTerms": [
+        "Cough"
+      ]
+    },
+    {
+      "id": "cough-cold",
+      "label": "Cough, Cold & Fever",
+      "group": "respiratory",
+      "groupLabel": "Cough, Cold & Respiratory",
+      "iconKey": "air",
+      "productIds": [
+        "coldrina-capsule",
+        "coldrina-syrup"
+      ],
+      "rawTerms": [
+        "Cold Fever"
+      ]
+    },
+    {
+      "id": "diabetes",
+      "label": "Diabetes Management",
+      "group": "diabetes-care",
+      "groupLabel": "Diabetes Care",
+      "iconKey": "monitor_heart",
+      "productIds": [
+        "madhumehari-capsule",
+        "madhumehari-tablet"
+      ],
+      "rawTerms": [
+        "Diabetes"
+      ]
+    },
+    {
+      "id": "diarrhoea",
+      "label": "Diarrhoea & Loose Motion",
+      "group": "digestive",
+      "groupLabel": "Digestive Health",
+      "iconKey": "restaurant",
+      "productIds": [
+        "diareena-m-syrup",
+        "diareena-m-tablet"
+      ],
+      "rawTerms": [
+        "Diarrhoea"
+      ]
+    },
+    {
+      "id": "digestion",
+      "label": "Digestion & Appetite",
+      "group": "digestive",
+      "groupLabel": "Digestive Health",
+      "iconKey": "restaurant",
+      "productIds": [
+        "acidal",
+        "swadishta-pachak-choorn"
+      ],
+      "rawTerms": [
+        "Digestive"
+      ]
+    },
+    {
+      "id": "ear-care",
+      "label": "Ear Care",
+      "group": "general",
+      "groupLabel": "General Wellness",
+      "iconKey": "favorite",
+      "productIds": [
+        "karnamrit"
+      ],
+      "rawTerms": [
+        "Ear drops"
+      ]
+    },
+    {
+      "id": "eye-care",
+      "label": "Eye Care",
+      "group": "general",
+      "groupLabel": "General Wellness",
+      "iconKey": "favorite",
+      "productIds": [
+        "naynamrit"
+      ],
+      "rawTerms": [
+        "Eye drops"
+      ]
+    },
+    {
+      "id": "fertility",
+      "label": "Fertility Support",
+      "group": "womens-health",
+      "groupLabel": "Women's Health",
+      "iconKey": "female",
+      "productIds": [
+        "fertila"
+      ],
+      "rawTerms": [
+        "Fertility"
+      ]
+    },
+    {
+      "id": "fever",
+      "label": "Fever",
+      "group": "general",
+      "groupLabel": "General Wellness",
+      "iconKey": "favorite",
+      "productIds": [
+        "malanin-capsule",
+        "malanin-tablet"
+      ],
+      "rawTerms": [
+        "Fever"
+      ]
+    },
+    {
+      "id": "fever-body-ache",
+      "label": "Fever & Body Ache",
+      "group": "pain-relief",
+      "groupLabel": "Pain Relief",
+      "iconKey": "accessibility_new",
+      "productIds": [
+        "painalgin",
+        "vednamrit"
+      ],
+      "rawTerms": [
+        "Fever + Analgesic"
+      ]
+    },
+    {
+      "id": "gas-acidity",
+      "label": "Gas, Acidity & Indigestion",
+      "group": "digestive",
+      "groupLabel": "Digestive Health",
+      "iconKey": "restaurant",
+      "productIds": [
+        "acidal-plus-capsule",
+        "acidal-plus-syrup",
+        "aspass",
+        "dazyme",
+        "gastron",
+        "gastron-forte-o",
+        "gastron-forte-r"
+      ],
+      "rawTerms": [
+        "Antacid",
+        "Digestive Antacid",
+        "GI troub.",
+        "Gastric troub."
+      ]
+    },
+    {
+      "id": "general-tonic",
+      "label": "General Tonic",
+      "group": "immunity-tonics",
+      "groupLabel": "Immunity & Tonics",
+      "iconKey": "bolt",
+      "productIds": [
+        "shakti-sudha",
+        "shilajeet-plus"
+      ],
+      "rawTerms": [
+        "Tonic"
+      ]
+    },
+    {
+      "id": "hair-care",
+      "label": "Hair Care",
+      "group": "hair-care",
+      "groupLabel": "Hair Care",
+      "iconKey": "content_cut",
+      "productIds": [
+        "dev-keshkalp"
+      ],
+      "rawTerms": [
+        "Herbal shampoo"
+      ]
+    },
+    {
+      "id": "headache",
+      "label": "Headache & Migraine",
+      "group": "pain-relief",
+      "groupLabel": "Pain Relief",
+      "iconKey": "accessibility_new",
+      "productIds": [
+        "balm"
+      ],
+      "rawTerms": [
+        "Headache"
+      ]
+    },
+    {
+      "id": "heart-health",
+      "label": "Heart Health",
+      "group": "general",
+      "groupLabel": "General Wellness",
+      "iconKey": "favorite",
+      "productIds": [
+        "arjuna"
+      ],
+      "rawTerms": [
+        "Heart troub."
+      ]
+    },
+    {
+      "id": "infant-care",
+      "label": "Infant Care",
+      "group": "kids-care",
+      "groupLabel": "Kids Care",
+      "iconKey": "child_care",
+      "productIds": [
+        "bal-ghutti"
+      ],
+      "rawTerms": [
+        "Bal rog"
+      ]
+    },
+    {
+      "id": "iron-calcium",
+      "label": "Iron & Calcium",
+      "group": "immunity-tonics",
+      "groupLabel": "Immunity & Tonics",
+      "iconKey": "bolt",
+      "productIds": [
+        "tephron-plus"
+      ],
+      "rawTerms": [
+        "Iron + calcium"
+      ]
+    },
+    {
+      "id": "joint-pain",
+      "label": "Joint Pain",
+      "group": "pain-relief",
+      "groupLabel": "Pain Relief",
+      "iconKey": "accessibility_new",
+      "productIds": [
+        "da-pyrine"
+      ],
+      "rawTerms": [
+        "Joints pain"
+      ]
+    },
+    {
+      "id": "kidney-stones",
+      "label": "Kidney & Gallstones",
+      "group": "urinary-kidney",
+      "groupLabel": "Urinary & Kidney",
+      "iconKey": "water_drop",
+      "productIds": [
+        "calcurina",
+        "stonil"
+      ],
+      "rawTerms": [
+        "Calculus"
+      ]
+    },
+    {
+      "id": "leucorrhoea",
+      "label": "Leucorrhoea",
+      "group": "womens-health",
+      "groupLabel": "Women's Health",
+      "iconKey": "female",
+      "productIds": [
+        "aspydial",
+        "lukonil-capsule",
+        "lukonil-tablet"
+      ],
+      "rawTerms": [
+        "Leucorrhoea"
+      ]
+    },
+    {
+      "id": "liver-care",
+      "label": "Liver Care",
+      "group": "liver",
+      "groupLabel": "Liver Care",
+      "iconKey": "eco",
+      "productIds": [
+        "asliv",
+        "exliv",
+        "livocure-syrup",
+        "livocure-tablet",
+        "livopleen-drops",
+        "livopleen-syrup",
+        "livopleen-tablet"
+      ],
+      "rawTerms": [
+        "Liver troubles"
+      ]
+    },
+    {
+      "id": "male-vitality",
+      "label": "Male Vitality",
+      "group": "mens-wellness",
+      "groupLabel": "Men's Wellness",
+      "iconKey": "male",
+      "productIds": [
+        "retex-special"
+      ],
+      "rawTerms": [
+        "Male Tonic"
+      ]
+    },
+    {
+      "id": "memory",
+      "label": "Memory & Concentration",
+      "group": "immunity-tonics",
+      "groupLabel": "Immunity & Tonics",
+      "iconKey": "bolt",
+      "productIds": [
+        "welabrain-syrup",
+        "welabrain-tablet"
+      ],
+      "rawTerms": [
+        "Memory booster"
+      ]
+    },
+    {
+      "id": "mouth-ulcers",
+      "label": "Mouth Ulcers",
+      "group": "general",
+      "groupLabel": "General Wellness",
+      "iconKey": "favorite",
+      "productIds": [
+        "kankoline"
+      ],
+      "rawTerms": [
+        "Stomatitis"
+      ]
+    },
+    {
+      "id": "multivitamin",
+      "label": "Multivitamin",
+      "group": "immunity-tonics",
+      "groupLabel": "Immunity & Tonics",
+      "iconKey": "bolt",
+      "productIds": [
+        "multivit"
+      ],
+      "rawTerms": [
+        "Multi Vitamin"
+      ]
+    },
+    {
+      "id": "muscle-pain",
+      "label": "Muscle & Back Pain",
+      "group": "pain-relief",
+      "groupLabel": "Pain Relief",
+      "iconKey": "accessibility_new",
+      "productIds": [
+        "aspain",
+        "rumex",
+        "satgun-tel"
+      ],
+      "rawTerms": [
+        "Muscular pain"
+      ]
+    },
+    {
+      "id": "period-pain",
+      "label": "Period Pain & PMS",
+      "group": "womens-health",
+      "groupLabel": "Women's Health",
+      "iconKey": "female",
+      "productIds": [
+        "pd-capsule"
+      ],
+      "rawTerms": [
+        "Dysmenorrhea"
+      ]
+    },
+    {
+      "id": "piles",
+      "label": "Piles & Fissure",
+      "group": "digestive",
+      "groupLabel": "Digestive Health",
+      "iconKey": "restaurant",
+      "productIds": [
+        "arshochin-capsule",
+        "arshochin-tablet"
+      ],
+      "rawTerms": [
+        "Piles"
+      ]
+    },
+    {
+      "id": "skin-infection",
+      "label": "Skin Infections",
+      "group": "skin-care",
+      "groupLabel": "Skin Care",
+      "iconKey": "spa",
+      "productIds": [
+        "dadruna"
+      ],
+      "rawTerms": [
+        "Skin diseases"
+      ]
+    },
+    {
+      "id": "strength-stamina",
+      "label": "Strength & Stamina",
+      "group": "immunity-tonics",
+      "groupLabel": "Immunity & Tonics",
+      "iconKey": "bolt",
+      "productIds": [
+        "vardhak-capsule",
+        "vardhak-choorna"
+      ],
+      "rawTerms": [
+        "Body Tonic"
+      ]
+    },
+    {
+      "id": "urinary-health",
+      "label": "Urinary Health",
+      "group": "urinary-kidney",
+      "groupLabel": "Urinary & Kidney",
+      "iconKey": "water_drop",
+      "productIds": [
+        "alkacit"
+      ],
+      "rawTerms": [
+        "Urinary problems"
+      ]
+    },
+    {
+      "id": "vata-care",
+      "label": "Vata & Nerve Care",
+      "group": "pain-relief",
+      "groupLabel": "Pain Relief",
+      "iconKey": "accessibility_new",
+      "productIds": [
+        "dev-garlic"
+      ],
+      "rawTerms": [
+        "Vat rog"
+      ]
+    },
+    {
+      "id": "womens-tonic",
+      "label": "Women's Tonic",
+      "group": "womens-health",
+      "groupLabel": "Women's Health",
+      "iconKey": "female",
+      "productIds": [
+        "dee-compound"
+      ],
+      "rawTerms": [
+        "Female Cordial"
+      ]
+    }
+  ]
+}

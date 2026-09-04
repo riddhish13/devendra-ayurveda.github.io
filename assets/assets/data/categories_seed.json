@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "tablet",
+      "label": "Tablets",
+      "iconKey": "medication",
+      "order": 0,
+      "productCount": 21
+    },
+    {
+      "id": "capsule",
+      "label": "Capsules",
+      "iconKey": "capsule",
+      "order": 1,
+      "productCount": 15
+    },
+    {
+      "id": "syrup",
+      "label": "Syrups",
+      "iconKey": "water_drop",
+      "order": 2,
+      "productCount": 23
+    },
+    {
+      "id": "choorna",
+      "label": "Choorna & Powders",
+      "iconKey": "grain",
+      "order": 3,
+      "productCount": 6
+    },
+    {
+      "id": "topical",
+      "label": "Balms, Oils & Drops",
+      "iconKey": "healing",
+      "order": 4,
+      "productCount": 11
+    },
+    {
+      "id": "classical",
+      "label": "Classical Formulations",
+      "iconKey": "auto_stories",
+      "order": 5,
+      "productCount": 14
+    }
+  ]
+}

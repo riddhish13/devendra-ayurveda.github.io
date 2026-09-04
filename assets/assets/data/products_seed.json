@@ -1,0 +1,3054 @@
+{
+  "products": [
+    {
+      "id": "abhyarishta",
+      "name": "Abhyarishta",
+      "slug": "abhyarishta",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Abhyarishta is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "abhyarishta--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "abhyarishta--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 145.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "acidal-plus-capsule",
+      "name": "Acidal Plus",
+      "slug": "acidal-plus-capsule",
+      "form": "capsule",
+      "primaryConditionId": "gas-acidity",
+      "conditionIds": [
+        "gas-acidity"
+      ],
+      "description": "Acidal Plus is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support gas, acidity & indigestion. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 20.0,
+      "variants": [
+        {
+          "sku": "acidal-plus-capsule--10-cap",
+          "packLabel": "10 Cap",
+          "unit": "Cap",
+          "size": 10,
+          "mrp": 20.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": true,
+          "active": true
+        },
+        {
+          "sku": "acidal-plus-capsule--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 145.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "acidal-plus-syrup",
+      "name": "Acidal Plus",
+      "slug": "acidal-plus-syrup",
+      "form": "syrup",
+      "primaryConditionId": "gas-acidity",
+      "conditionIds": [
+        "gas-acidity"
+      ],
+      "description": "Acidal Plus is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support gas, acidity & indigestion. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "acidal-plus-syrup--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "acidal-plus-syrup--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "acidal",
+      "name": "Acidal",
+      "slug": "acidal",
+      "form": "syrup",
+      "primaryConditionId": "digestion",
+      "conditionIds": [
+        "digestion"
+      ],
+      "description": "Acidal is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support digestion & appetite. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 140.0,
+      "variants": [
+        {
+          "sku": "acidal--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "alkacit",
+      "name": "Alkacit",
+      "slug": "alkacit",
+      "form": "syrup",
+      "primaryConditionId": "urinary-health",
+      "conditionIds": [
+        "urinary-health"
+      ],
+      "description": "Alkacit is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support urinary health. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "alkacit--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "alkacit--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "amritarishta",
+      "name": "Amritarishta",
+      "slug": "amritarishta",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Amritarishta is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "amritarishta--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "amritarishta--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 145.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "anurjana",
+      "name": "Anurjana",
+      "slug": "anurjana",
+      "form": "tablet",
+      "primaryConditionId": "allergy",
+      "conditionIds": [
+        "allergy"
+      ],
+      "description": "Anurjana is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support allergy relief. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 100.0,
+      "variants": [
+        {
+          "sku": "anurjana--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 100.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "arjuna",
+      "name": "Arjuna",
+      "slug": "arjuna",
+      "form": "tablet",
+      "primaryConditionId": "heart-health",
+      "conditionIds": [
+        "heart-health"
+      ],
+      "description": "Arjuna is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support heart health. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "arjuna--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "arjunarishta",
+      "name": "Arjunarishta",
+      "slug": "arjunarishta",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Arjunarishta is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "arjunarishta--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "arjunarishta--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 145.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "arshochin-capsule",
+      "name": "Arshochin",
+      "slug": "arshochin-capsule",
+      "form": "capsule",
+      "primaryConditionId": "piles",
+      "conditionIds": [
+        "piles"
+      ],
+      "description": "Arshochin is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support piles & fissure. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 105.0,
+      "variants": [
+        {
+          "sku": "arshochin-capsule--30-cap",
+          "packLabel": "30 Cap",
+          "unit": "Cap",
+          "size": 30,
+          "mrp": 105.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": true,
+          "active": true
+        },
+        {
+          "sku": "arshochin-capsule--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 200.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "arshochin-tablet",
+      "name": "Arshochin",
+      "slug": "arshochin-tablet",
+      "form": "tablet",
+      "primaryConditionId": "piles",
+      "conditionIds": [
+        "piles"
+      ],
+      "description": "Arshochin is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support piles & fissure. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "arshochin-tablet--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "ashokarishta",
+      "name": "Ashokarishta",
+      "slug": "ashokarishta",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Ashokarishta is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "ashokarishta--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "ashokarishta--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 145.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "ashwagandhadi-choorn",
+      "name": "Ashwagandhadi Choorn",
+      "slug": "ashwagandhadi-choorn",
+      "form": "choorna",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Ashwagandhadi Choorn is a traditional Ayurvedic choorna & powder from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 180.0,
+      "variants": [
+        {
+          "sku": "ashwagandhadi-choorn--100-g",
+          "packLabel": "100 g",
+          "unit": "g",
+          "size": 100,
+          "mrp": 180.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "ashwagandharishta",
+      "name": "Ashwagandharishta",
+      "slug": "ashwagandharishta",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Ashwagandharishta is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "ashwagandharishta--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "ashwagandharishta--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 145.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "asliv",
+      "name": "Asliv",
+      "slug": "asliv",
+      "form": "syrup",
+      "primaryConditionId": "liver-care",
+      "conditionIds": [
+        "liver-care"
+      ],
+      "description": "Asliv is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support liver care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 150.0,
+      "variants": [
+        {
+          "sku": "asliv--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 150.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "aspain",
+      "name": "Aspain",
+      "slug": "aspain",
+      "form": "topical",
+      "primaryConditionId": "muscle-pain",
+      "conditionIds": [
+        "muscle-pain"
+      ],
+      "description": "Aspain is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support muscle & back pain. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 125.0,
+      "variants": [
+        {
+          "sku": "aspain--30-ml",
+          "packLabel": "30 mL",
+          "unit": "mL",
+          "size": 30,
+          "mrp": 125.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "aspass",
+      "name": "Aspass",
+      "slug": "aspass",
+      "form": "capsule",
+      "primaryConditionId": "gas-acidity",
+      "conditionIds": [
+        "gas-acidity"
+      ],
+      "description": "Aspass is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support gas, acidity & indigestion. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 25.0,
+      "variants": [
+        {
+          "sku": "aspass--10-cap",
+          "packLabel": "10 Cap",
+          "unit": "Cap",
+          "size": 10,
+          "mrp": 25.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": true,
+          "active": true
+        },
+        {
+          "sku": "aspass--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 160.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "aspydial",
+      "name": "Aspydial",
+      "slug": "aspydial",
+      "form": "syrup",
+      "primaryConditionId": "leucorrhoea",
+      "conditionIds": [
+        "leucorrhoea"
+      ],
+      "description": "Aspydial is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support leucorrhoea. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 180.0,
+      "variants": [
+        {
+          "sku": "aspydial--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 180.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "asthama",
+      "name": "Asthama",
+      "slug": "asthama",
+      "form": "tablet",
+      "primaryConditionId": "asthma",
+      "conditionIds": [
+        "asthma"
+      ],
+      "description": "Asthama is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support asthma & breathing. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "asthama--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "bal-ghutti",
+      "name": "Bal Ghutti",
+      "slug": "bal-ghutti",
+      "form": "syrup",
+      "primaryConditionId": "infant-care",
+      "conditionIds": [
+        "infant-care"
+      ],
+      "description": "Bal Ghutti is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support infant care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "bal-ghutti--60-ml",
+          "packLabel": "60 mL",
+          "unit": "mL",
+          "size": 60,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "balm",
+      "name": "Balm",
+      "slug": "balm",
+      "form": "topical",
+      "primaryConditionId": "headache",
+      "conditionIds": [
+        "headache"
+      ],
+      "description": "Balm is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support headache & migraine. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "balm--10-g",
+          "packLabel": "10 g",
+          "unit": "g",
+          "size": 10,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "burnt-cream",
+      "name": "Burnt Cream",
+      "slug": "burnt-cream",
+      "form": "topical",
+      "primaryConditionId": "wounds",
+      "conditionIds": [
+        "wounds"
+      ],
+      "description": "Burnt Cream is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support burns, cuts & wounds. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "burnt-cream--10-g",
+          "packLabel": "10 g",
+          "unit": "g",
+          "size": 10,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "calcurina",
+      "name": "Calcurina",
+      "slug": "calcurina",
+      "form": "tablet",
+      "primaryConditionId": "kidney-stones",
+      "conditionIds": [
+        "kidney-stones"
+      ],
+      "description": "Calcurina is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support kidney & gallstones. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "calcurina--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "chandnasava",
+      "name": "Chandnasava",
+      "slug": "chandnasava",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Chandnasava is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "chandnasava--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "chandnasava--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 145.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "chandraprabha-vati",
+      "name": "Chandraprabha Vati",
+      "slug": "chandraprabha-vati",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Chandraprabha Vati is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 600.0,
+      "variants": [
+        {
+          "sku": "chandraprabha-vati--500-g",
+          "packLabel": "500 g",
+          "unit": "g",
+          "size": 500,
+          "mrp": 600.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "coldrina-capsule",
+      "name": "Coldrina",
+      "slug": "coldrina-capsule",
+      "form": "capsule",
+      "primaryConditionId": "cough-cold",
+      "conditionIds": [
+        "cough-cold"
+      ],
+      "description": "Coldrina is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support cough, cold & fever. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 120.0,
+      "variants": [
+        {
+          "sku": "coldrina-capsule--30-cap",
+          "packLabel": "30 Cap",
+          "unit": "Cap",
+          "size": 30,
+          "mrp": 120.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": true,
+          "active": true
+        },
+        {
+          "sku": "coldrina-capsule--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "coldrina-syrup",
+      "name": "Coldrina",
+      "slug": "coldrina-syrup",
+      "form": "syrup",
+      "primaryConditionId": "cough-cold",
+      "conditionIds": [
+        "cough-cold"
+      ],
+      "description": "Coldrina is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support cough, cold & fever. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "coldrina-syrup--60-ml",
+          "packLabel": "60 mL",
+          "unit": "mL",
+          "size": 60,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "coldrina-syrup--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "colicon",
+      "name": "Colicon",
+      "slug": "colicon",
+      "form": "tablet",
+      "primaryConditionId": "colic",
+      "conditionIds": [
+        "colic"
+      ],
+      "description": "Colicon is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support colic & cramps. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 70.0,
+      "variants": [
+        {
+          "sku": "colicon--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 70.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "da-pyrine",
+      "name": "D.A. Pyrine",
+      "slug": "da-pyrine",
+      "form": "tablet",
+      "primaryConditionId": "joint-pain",
+      "conditionIds": [
+        "joint-pain"
+      ],
+      "description": "D.A. Pyrine is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support joint pain. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "da-pyrine--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "dazyme",
+      "name": "D.A.Zyme",
+      "slug": "dazyme",
+      "form": "tablet",
+      "primaryConditionId": "gas-acidity",
+      "conditionIds": [
+        "gas-acidity"
+      ],
+      "description": "D.A.Zyme is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support gas, acidity & indigestion. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 70.0,
+      "variants": [
+        {
+          "sku": "dazyme--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 70.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "dadruna",
+      "name": "Dadruna",
+      "slug": "dadruna",
+      "form": "topical",
+      "primaryConditionId": "skin-infection",
+      "conditionIds": [
+        "skin-infection"
+      ],
+      "description": "Dadruna is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support skin infections. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "dadruna--10-g",
+          "packLabel": "10 g",
+          "unit": "g",
+          "size": 10,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "dashmularishta-kr",
+      "name": "Dashmularishta (K.R.)",
+      "slug": "dashmularishta-kr",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Dashmularishta (K.R.) is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "dashmularishta-kr--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "dashmularishta-kr--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 145.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "dee-compound",
+      "name": "Dee Compound",
+      "slug": "dee-compound",
+      "form": "syrup",
+      "primaryConditionId": "womens-tonic",
+      "conditionIds": [
+        "womens-tonic"
+      ],
+      "description": "Dee Compound is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support women's tonic. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 140.0,
+      "variants": [
+        {
+          "sku": "dee-compound--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "dee-kuf-sf",
+      "name": "Dee Kuf SF",
+      "slug": "dee-kuf-sf",
+      "form": "syrup",
+      "primaryConditionId": "cough",
+      "conditionIds": [
+        "cough"
+      ],
+      "description": "Dee Kuf SF is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support cough relief. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "dee-kuf-sf--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "dee-kuf",
+      "name": "Dee Kuf",
+      "slug": "dee-kuf",
+      "form": "syrup",
+      "primaryConditionId": "cough",
+      "conditionIds": [
+        "cough"
+      ],
+      "description": "Dee Kuf is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support cough relief. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "dee-kuf--60-ml",
+          "packLabel": "60 mL",
+          "unit": "mL",
+          "size": 60,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "dee-kuf--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "dev-garlic",
+      "name": "Dev Garlic",
+      "slug": "dev-garlic",
+      "form": "capsule",
+      "primaryConditionId": "vata-care",
+      "conditionIds": [
+        "vata-care"
+      ],
+      "description": "Dev Garlic is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support vata & nerve care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 140.0,
+      "variants": [
+        {
+          "sku": "dev-garlic--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "dev-keshkalp",
+      "name": "Dev Keshkalp",
+      "slug": "dev-keshkalp",
+      "form": "topical",
+      "primaryConditionId": "hair-care",
+      "conditionIds": [
+        "hair-care"
+      ],
+      "description": "Dev Keshkalp is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support hair care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 120.0,
+      "variants": [
+        {
+          "sku": "dev-keshkalp--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 120.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "dev-keshkalp--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 220.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "dhatu-paushtik-choorn",
+      "name": "Dhatu Paushtik Choorn",
+      "slug": "dhatu-paushtik-choorn",
+      "form": "choorna",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Dhatu Paushtik Choorn is a traditional Ayurvedic choorna & powder from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 150.0,
+      "variants": [
+        {
+          "sku": "dhatu-paushtik-choorn--100-g",
+          "packLabel": "100 g",
+          "unit": "g",
+          "size": 100,
+          "mrp": 150.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "dhatu-paushtik-choorn--1000-g",
+          "packLabel": "1000 g",
+          "unit": "g",
+          "size": 1000,
+          "mrp": 1350.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "diareena-m-syrup",
+      "name": "Diareena M.",
+      "slug": "diareena-m-syrup",
+      "form": "syrup",
+      "primaryConditionId": "diarrhoea",
+      "conditionIds": [
+        "diarrhoea"
+      ],
+      "description": "Diareena M. is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support diarrhoea & loose motion. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 40.0,
+      "variants": [
+        {
+          "sku": "diareena-m-syrup--30-ml",
+          "packLabel": "30 mL",
+          "unit": "mL",
+          "size": 30,
+          "mrp": 40.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "diareena-m-syrup--60-ml",
+          "packLabel": "60 mL",
+          "unit": "mL",
+          "size": 60,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "diareena-m-tablet",
+      "name": "Diareena M.",
+      "slug": "diareena-m-tablet",
+      "form": "tablet",
+      "primaryConditionId": "diarrhoea",
+      "conditionIds": [
+        "diarrhoea"
+      ],
+      "description": "Diareena M. is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support diarrhoea & loose motion. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "diareena-m-tablet--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "drakshasava",
+      "name": "Drakshasava",
+      "slug": "drakshasava",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Drakshasava is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 80.0,
+      "variants": [
+        {
+          "sku": "drakshasava--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 80.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "drakshasava--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 155.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "exliv",
+      "name": "Exliv",
+      "slug": "exliv",
+      "form": "syrup",
+      "primaryConditionId": "liver-care",
+      "conditionIds": [
+        "liver-care"
+      ],
+      "description": "Exliv is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support liver care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 180.0,
+      "variants": [
+        {
+          "sku": "exliv--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 180.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "fertila",
+      "name": "Fertila",
+      "slug": "fertila",
+      "form": "syrup",
+      "primaryConditionId": "fertility",
+      "conditionIds": [
+        "fertility"
+      ],
+      "description": "Fertila is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support fertility support. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 140.0,
+      "variants": [
+        {
+          "sku": "fertila--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "gastron-forte-o",
+      "name": "Gastron Forte (O)",
+      "slug": "gastron-forte-o",
+      "form": "tablet",
+      "primaryConditionId": "gas-acidity",
+      "conditionIds": [
+        "gas-acidity"
+      ],
+      "description": "Gastron Forte (O) is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support gas, acidity & indigestion. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "gastron-forte-o--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "gastron-forte-r",
+      "name": "Gastron Forte (R)",
+      "slug": "gastron-forte-r",
+      "form": "tablet",
+      "primaryConditionId": "gas-acidity",
+      "conditionIds": [
+        "gas-acidity"
+      ],
+      "description": "Gastron Forte (R) is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support gas, acidity & indigestion. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 66.0,
+      "variants": [
+        {
+          "sku": "gastron-forte-r--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 66.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "gastron-forte-r--1000-tab",
+          "packLabel": "1000 Tab",
+          "unit": "Tab",
+          "size": 1000,
+          "mrp": 600.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "gastron",
+      "name": "Gastron",
+      "slug": "gastron",
+      "form": "tablet",
+      "primaryConditionId": "gas-acidity",
+      "conditionIds": [
+        "gas-acidity"
+      ],
+      "description": "Gastron is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support gas, acidity & indigestion. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 500.0,
+      "variants": [
+        {
+          "sku": "gastron--1000-tab",
+          "packLabel": "1000 Tab",
+          "unit": "Tab",
+          "size": 1000,
+          "mrp": 500.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "kankoline",
+      "name": "Kankoline",
+      "slug": "kankoline",
+      "form": "topical",
+      "primaryConditionId": "mouth-ulcers",
+      "conditionIds": [
+        "mouth-ulcers"
+      ],
+      "description": "Kankoline is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support mouth ulcers. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 25.0,
+      "variants": [
+        {
+          "sku": "kankoline--5-ml",
+          "packLabel": "5 mL",
+          "unit": "mL",
+          "size": 5,
+          "mrp": 25.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "karnamrit",
+      "name": "Karnamrit",
+      "slug": "karnamrit",
+      "form": "topical",
+      "primaryConditionId": "ear-care",
+      "conditionIds": [
+        "ear-care"
+      ],
+      "description": "Karnamrit is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support ear care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "karnamrit--10-ml",
+          "packLabel": "10 mL",
+          "unit": "mL",
+          "size": 10,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "kufnil",
+      "name": "Kufnil",
+      "slug": "kufnil",
+      "form": "syrup",
+      "primaryConditionId": "cough",
+      "conditionIds": [
+        "cough"
+      ],
+      "description": "Kufnil is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support cough relief. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "kufnil--60-ml",
+          "packLabel": "60 mL",
+          "unit": "mL",
+          "size": 60,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "kufnil--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "kumaryasava",
+      "name": "Kumaryasava",
+      "slug": "kumaryasava",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Kumaryasava is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "kumaryasava--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "kumaryasava--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 150.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "laxanil",
+      "name": "Laxanil",
+      "slug": "laxanil",
+      "form": "tablet",
+      "primaryConditionId": "constipation",
+      "conditionIds": [
+        "constipation"
+      ],
+      "description": "Laxanil is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support constipation relief. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "laxanil--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "livocure-syrup",
+      "name": "Livocure",
+      "slug": "livocure-syrup",
+      "form": "syrup",
+      "primaryConditionId": "liver-care",
+      "conditionIds": [
+        "liver-care"
+      ],
+      "description": "Livocure is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support liver care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "livocure-syrup--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "livocure-syrup--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 150.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "livocure-tablet",
+      "name": "Livocure",
+      "slug": "livocure-tablet",
+      "form": "tablet",
+      "primaryConditionId": "liver-care",
+      "conditionIds": [
+        "liver-care"
+      ],
+      "description": "Livocure is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support liver care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 500.0,
+      "variants": [
+        {
+          "sku": "livocure-tablet--1000-tab",
+          "packLabel": "1000 Tab",
+          "unit": "Tab",
+          "size": 1000,
+          "mrp": 500.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "livopleen-drops",
+      "name": "Livopleen Drops",
+      "slug": "livopleen-drops",
+      "form": "syrup",
+      "primaryConditionId": "liver-care",
+      "conditionIds": [
+        "liver-care"
+      ],
+      "description": "Livopleen Drops is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support liver care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "livopleen-drops--30-ml",
+          "packLabel": "30 mL",
+          "unit": "mL",
+          "size": 30,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "livopleen-syrup",
+      "name": "Livopleen",
+      "slug": "livopleen-syrup",
+      "form": "syrup",
+      "primaryConditionId": "liver-care",
+      "conditionIds": [
+        "liver-care"
+      ],
+      "description": "Livopleen is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support liver care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "livopleen-syrup--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "livopleen-syrup--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "livopleen-tablet",
+      "name": "Livopleen",
+      "slug": "livopleen-tablet",
+      "form": "tablet",
+      "primaryConditionId": "liver-care",
+      "conditionIds": [
+        "liver-care"
+      ],
+      "description": "Livopleen is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support liver care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 60.0,
+      "variants": [
+        {
+          "sku": "livopleen-tablet--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 60.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "lohasava",
+      "name": "Lohasava",
+      "slug": "lohasava",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Lohasava is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "lohasava--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "lohasava--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 150.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "lukonil-capsule",
+      "name": "Lukonil",
+      "slug": "lukonil-capsule",
+      "form": "capsule",
+      "primaryConditionId": "leucorrhoea",
+      "conditionIds": [
+        "leucorrhoea"
+      ],
+      "description": "Lukonil is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support leucorrhoea. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 90.0,
+      "variants": [
+        {
+          "sku": "lukonil-capsule--30-cap",
+          "packLabel": "30 Cap",
+          "unit": "Cap",
+          "size": 30,
+          "mrp": 90.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": true,
+          "active": true
+        },
+        {
+          "sku": "lukonil-capsule--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 400.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "lukonil-tablet",
+      "name": "Lukonil",
+      "slug": "lukonil-tablet",
+      "form": "tablet",
+      "primaryConditionId": "leucorrhoea",
+      "conditionIds": [
+        "leucorrhoea"
+      ],
+      "description": "Lukonil is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support leucorrhoea. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 70.0,
+      "variants": [
+        {
+          "sku": "lukonil-tablet--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 70.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "madhumehari-capsule",
+      "name": "Madhumehari",
+      "slug": "madhumehari-capsule",
+      "form": "capsule",
+      "primaryConditionId": "diabetes",
+      "conditionIds": [
+        "diabetes"
+      ],
+      "description": "Madhumehari is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support diabetes management. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 250.0,
+      "variants": [
+        {
+          "sku": "madhumehari-capsule--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 250.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "madhumehari-tablet",
+      "name": "Madhumehari",
+      "slug": "madhumehari-tablet",
+      "form": "tablet",
+      "primaryConditionId": "diabetes",
+      "conditionIds": [
+        "diabetes"
+      ],
+      "description": "Madhumehari is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support diabetes management. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 100.0,
+      "variants": [
+        {
+          "sku": "madhumehari-tablet--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 100.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "malanin-capsule",
+      "name": "Malanin",
+      "slug": "malanin-capsule",
+      "form": "capsule",
+      "primaryConditionId": "fever",
+      "conditionIds": [
+        "fever"
+      ],
+      "description": "Malanin is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support fever. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 140.0,
+      "variants": [
+        {
+          "sku": "malanin-capsule--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "malanin-tablet",
+      "name": "Malanin",
+      "slug": "malanin-tablet",
+      "form": "tablet",
+      "primaryConditionId": "fever",
+      "conditionIds": [
+        "fever"
+      ],
+      "description": "Malanin is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support fever. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "malanin-tablet--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "multivit",
+      "name": "Multivit",
+      "slug": "multivit",
+      "form": "capsule",
+      "primaryConditionId": "multivitamin",
+      "conditionIds": [
+        "multivitamin"
+      ],
+      "description": "Multivit is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support multivitamin. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 125.0,
+      "variants": [
+        {
+          "sku": "multivit--30-cap",
+          "packLabel": "30 Cap",
+          "unit": "Cap",
+          "size": 30,
+          "mrp": 125.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": true,
+          "active": true
+        },
+        {
+          "sku": "multivit--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 250.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "multivit--300-cap",
+          "packLabel": "300 Cap",
+          "unit": "Cap",
+          "size": 300,
+          "mrp": 700.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "naynamrit",
+      "name": "Naynamrit",
+      "slug": "naynamrit",
+      "form": "topical",
+      "primaryConditionId": "eye-care",
+      "conditionIds": [
+        "eye-care"
+      ],
+      "description": "Naynamrit is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support eye care. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "naynamrit--10-ml",
+          "packLabel": "10 mL",
+          "unit": "mL",
+          "size": 10,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "pd-capsule",
+      "name": "P.D. Capsule",
+      "slug": "pd-capsule",
+      "form": "capsule",
+      "primaryConditionId": "period-pain",
+      "conditionIds": [
+        "period-pain"
+      ],
+      "description": "P.D. Capsule is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support period pain & pms. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 120.0,
+      "variants": [
+        {
+          "sku": "pd-capsule--30-cap",
+          "packLabel": "30 Cap",
+          "unit": "Cap",
+          "size": 30,
+          "mrp": 120.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": true,
+          "active": true
+        },
+        {
+          "sku": "pd-capsule--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 250.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "painalgin",
+      "name": "Painalgin",
+      "slug": "painalgin",
+      "form": "tablet",
+      "primaryConditionId": "fever-body-ache",
+      "conditionIds": [
+        "fever-body-ache"
+      ],
+      "description": "Painalgin is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support fever & body ache. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 70.0,
+      "variants": [
+        {
+          "sku": "painalgin--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 70.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "panchsakar-choorn",
+      "name": "Panchsakar Choorn",
+      "slug": "panchsakar-choorn",
+      "form": "choorna",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Panchsakar Choorn is a traditional Ayurvedic choorna & powder from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 150.0,
+      "variants": [
+        {
+          "sku": "panchsakar-choorn--100-g",
+          "packLabel": "100 g",
+          "unit": "g",
+          "size": 100,
+          "mrp": 150.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "provita",
+      "name": "Provita",
+      "slug": "provita",
+      "form": "syrup",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Provita is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 100.0,
+      "variants": [
+        {
+          "sku": "provita--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 100.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "provita--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 180.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "punarnavasava",
+      "name": "Punarnavasava",
+      "slug": "punarnavasava",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Punarnavasava is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "punarnavasava--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "punarnavasava--450-ml",
+          "packLabel": "450 mL",
+          "unit": "mL",
+          "size": 450,
+          "mrp": 145.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "retex-special",
+      "name": "Retex Special",
+      "slug": "retex-special",
+      "form": "capsule",
+      "primaryConditionId": "male-vitality",
+      "conditionIds": [
+        "male-vitality"
+      ],
+      "description": "Retex Special is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support male vitality. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 360.0,
+      "variants": [
+        {
+          "sku": "retex-special--30-cap",
+          "packLabel": "30 Cap",
+          "unit": "Cap",
+          "size": 30,
+          "mrp": 360.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "rumex",
+      "name": "Rumex",
+      "slug": "rumex",
+      "form": "topical",
+      "primaryConditionId": "muscle-pain",
+      "conditionIds": [
+        "muscle-pain"
+      ],
+      "description": "Rumex is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support muscle & back pain. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 95.0,
+      "variants": [
+        {
+          "sku": "rumex--30-ml",
+          "packLabel": "30 mL",
+          "unit": "mL",
+          "size": 30,
+          "mrp": 95.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "rumex--60-ml",
+          "packLabel": "60 mL",
+          "unit": "mL",
+          "size": 60,
+          "mrp": 180.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "sarsanil-capsule",
+      "name": "Sarsanil",
+      "slug": "sarsanil-capsule",
+      "form": "capsule",
+      "primaryConditionId": "blood-purifier",
+      "conditionIds": [
+        "blood-purifier"
+      ],
+      "description": "Sarsanil is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support blood purifier. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 140.0,
+      "variants": [
+        {
+          "sku": "sarsanil-capsule--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "sarsanil-syrup",
+      "name": "Sarsanil",
+      "slug": "sarsanil-syrup",
+      "form": "syrup",
+      "primaryConditionId": "blood-purifier",
+      "conditionIds": [
+        "blood-purifier"
+      ],
+      "description": "Sarsanil is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support blood purifier. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "sarsanil-syrup--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "sarsanil-syrup--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "satawaryadi-choorn",
+      "name": "Satawaryadi Choorn",
+      "slug": "satawaryadi-choorn",
+      "form": "choorna",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Satawaryadi Choorn is a traditional Ayurvedic choorna & powder from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 180.0,
+      "variants": [
+        {
+          "sku": "satawaryadi-choorn--100-g",
+          "packLabel": "100 g",
+          "unit": "g",
+          "size": 100,
+          "mrp": 180.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "satgun-tel",
+      "name": "Satgun Tel",
+      "slug": "satgun-tel",
+      "form": "topical",
+      "primaryConditionId": "muscle-pain",
+      "conditionIds": [
+        "muscle-pain"
+      ],
+      "description": "Satgun Tel is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support muscle & back pain. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 95.0,
+      "variants": [
+        {
+          "sku": "satgun-tel--30-ml",
+          "packLabel": "30 mL",
+          "unit": "mL",
+          "size": 30,
+          "mrp": 95.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "satgun-tel--60-ml",
+          "packLabel": "60 mL",
+          "unit": "mL",
+          "size": 60,
+          "mrp": 180.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "septicure",
+      "name": "Septicure",
+      "slug": "septicure",
+      "form": "topical",
+      "primaryConditionId": "wounds",
+      "conditionIds": [
+        "wounds"
+      ],
+      "description": "Septicure is a traditional Ayurvedic balms, oils & drop from Devendra Ayurveda, formulated in the classical tradition and commonly used to support burns, cuts & wounds. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 100.0,
+      "variants": [
+        {
+          "sku": "septicure--25-g",
+          "packLabel": "25 g",
+          "unit": "g",
+          "size": 25,
+          "mrp": 100.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "shakti-sudha",
+      "name": "Shakti Sudha",
+      "slug": "shakti-sudha",
+      "form": "syrup",
+      "primaryConditionId": "general-tonic",
+      "conditionIds": [
+        "general-tonic"
+      ],
+      "description": "Shakti Sudha is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support general tonic. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 75.0,
+      "variants": [
+        {
+          "sku": "shakti-sudha--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "shakti-sudha--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "shilajeet-plus",
+      "name": "Shilajeet Plus",
+      "slug": "shilajeet-plus",
+      "form": "capsule",
+      "primaryConditionId": "general-tonic",
+      "conditionIds": [
+        "general-tonic"
+      ],
+      "description": "Shilajeet Plus is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support general tonic. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 250.0,
+      "variants": [
+        {
+          "sku": "shilajeet-plus--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 250.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "shilajeet-plus--300-cap",
+          "packLabel": "300 Cap",
+          "unit": "Cap",
+          "size": 300,
+          "mrp": 700.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "shishupal",
+      "name": "Shishupal",
+      "slug": "shishupal",
+      "form": "syrup",
+      "primaryConditionId": "baby-tonic",
+      "conditionIds": [
+        "baby-tonic"
+      ],
+      "description": "Shishupal is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support baby tonic. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "shishupal--60-ml",
+          "packLabel": "60 mL",
+          "unit": "mL",
+          "size": 60,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "shishupal--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 75.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "stonil",
+      "name": "Stonil",
+      "slug": "stonil",
+      "form": "syrup",
+      "primaryConditionId": "kidney-stones",
+      "conditionIds": [
+        "kidney-stones"
+      ],
+      "description": "Stonil is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support kidney & gallstones. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 150.0,
+      "variants": [
+        {
+          "sku": "stonil--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 150.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "supari-pak",
+      "name": "Supari Pak",
+      "slug": "supari-pak",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Supari Pak is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 120.0,
+      "variants": [
+        {
+          "sku": "supari-pak--100-g",
+          "packLabel": "100 g",
+          "unit": "g",
+          "size": 100,
+          "mrp": 120.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "supari-pak--1000-g",
+          "packLabel": "1000 g",
+          "unit": "g",
+          "size": 1000,
+          "mrp": 1080.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "swadishta-pachak-choorn",
+      "name": "Swadishta Pachak Choorn",
+      "slug": "swadishta-pachak-choorn",
+      "form": "choorna",
+      "primaryConditionId": "digestion",
+      "conditionIds": [
+        "digestion"
+      ],
+      "description": "Swadishta Pachak Choorn is a traditional Ayurvedic choorna & powder from Devendra Ayurveda, formulated in the classical tradition and commonly used to support digestion & appetite. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 50.0,
+      "variants": [
+        {
+          "sku": "swadishta-pachak-choorn--50-g",
+          "packLabel": "50 g",
+          "unit": "g",
+          "size": 50,
+          "mrp": 50.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "tephron-plus",
+      "name": "Tephron Plus",
+      "slug": "tephron-plus",
+      "form": "capsule",
+      "primaryConditionId": "iron-calcium",
+      "conditionIds": [
+        "iron-calcium"
+      ],
+      "description": "Tephron Plus is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support iron & calcium. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 90.0,
+      "variants": [
+        {
+          "sku": "tephron-plus--30-cap",
+          "packLabel": "30 Cap",
+          "unit": "Cap",
+          "size": 30,
+          "mrp": 90.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "tephron-plus--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 140.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "vardhak-capsule",
+      "name": "Vardhak",
+      "slug": "vardhak-capsule",
+      "form": "capsule",
+      "primaryConditionId": "strength-stamina",
+      "conditionIds": [
+        "strength-stamina"
+      ],
+      "description": "Vardhak is a traditional Ayurvedic capsule from Devendra Ayurveda, formulated in the classical tradition and commonly used to support strength & stamina. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 250.0,
+      "variants": [
+        {
+          "sku": "vardhak-capsule--100-cap",
+          "packLabel": "100 Cap",
+          "unit": "Cap",
+          "size": 100,
+          "mrp": 250.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "vardhak-choorna",
+      "name": "Vardhak",
+      "slug": "vardhak-choorna",
+      "form": "choorna",
+      "primaryConditionId": "strength-stamina",
+      "conditionIds": [
+        "strength-stamina"
+      ],
+      "description": "Vardhak is a traditional Ayurvedic choorna & powder from Devendra Ayurveda, formulated in the classical tradition and commonly used to support strength & stamina. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 180.0,
+      "variants": [
+        {
+          "sku": "vardhak-choorna--100-g",
+          "packLabel": "100 g",
+          "unit": "g",
+          "size": 100,
+          "mrp": 180.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "vednamrit",
+      "name": "Vednamrit",
+      "slug": "vednamrit",
+      "form": "tablet",
+      "primaryConditionId": "fever-body-ache",
+      "conditionIds": [
+        "fever-body-ache"
+      ],
+      "description": "Vednamrit is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support fever & body ache. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 70.0,
+      "variants": [
+        {
+          "sku": "vednamrit--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 70.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "welabrain-syrup",
+      "name": "Welabrain",
+      "slug": "welabrain-syrup",
+      "form": "syrup",
+      "primaryConditionId": "memory",
+      "conditionIds": [
+        "memory"
+      ],
+      "description": "Welabrain is a traditional Ayurvedic syrup from Devendra Ayurveda, formulated in the classical tradition and commonly used to support memory & concentration. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": true,
+      "minPrice": 90.0,
+      "variants": [
+        {
+          "sku": "welabrain-syrup--100-ml",
+          "packLabel": "100 mL",
+          "unit": "mL",
+          "size": 100,
+          "mrp": 90.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        },
+        {
+          "sku": "welabrain-syrup--200-ml",
+          "packLabel": "200 mL",
+          "unit": "mL",
+          "size": 200,
+          "mrp": 180.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "welabrain-tablet",
+      "name": "Welabrain",
+      "slug": "welabrain-tablet",
+      "form": "tablet",
+      "primaryConditionId": "memory",
+      "conditionIds": [
+        "memory"
+      ],
+      "description": "Welabrain is a traditional Ayurvedic tablet from Devendra Ayurveda, formulated in the classical tradition and commonly used to support memory & concentration. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 100.0,
+      "variants": [
+        {
+          "sku": "welabrain-tablet--100-tab",
+          "packLabel": "100 Tab",
+          "unit": "Tab",
+          "size": 100,
+          "mrp": 100.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "yograj-guggul",
+      "name": "Yograj Guggul",
+      "slug": "yograj-guggul",
+      "form": "classical",
+      "primaryConditionId": "classical-care",
+      "conditionIds": [
+        "classical-care"
+      ],
+      "description": "Yograj Guggul is a traditional Ayurvedic classical formulation from Devendra Ayurveda, formulated in the classical tradition and commonly used to support classical preparations. Use as directed by your Ayurvedic physician.",
+      "ingredients": [],
+      "benefits": [],
+      "imageRefs": [],
+      "isFeatured": false,
+      "minPrice": 320.0,
+      "variants": [
+        {
+          "sku": "yograj-guggul--500-g",
+          "packLabel": "500 g",
+          "unit": "g",
+          "size": 500,
+          "mrp": 320.0,
+          "discountPrice": null,
+          "stock": 100,
+          "isBlister": false,
+          "active": true
+        }
+      ]
+    }
+  ]
+}
