@@ -33,6 +33,15 @@
   <title>Devendra Ayurveda</title>
   <link rel="manifest" href="manifest.json">
 
+  <!--
+    Open the connections the storefront needs early: Pexels' image CDN (the
+    philosophy photography) and fonts.gstatic.com (CanvasKit's fallback
+    fonts, e.g. for Devanagari). The brand typefaces themselves are bundled
+    in the app, so nothing here delays the first text paint.
+  -->
+  <link rel="preconnect" href="https://images.pexels.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <!-- Razorpay Checkout.js — used by the web PaymentGateway implementation. -->
   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 </head>
