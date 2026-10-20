@@ -1,0 +1,17 @@
+# Devendra Ayurveda — https://devendraayurved.com
+# Shopper-only screens (cart, sign-in, account, orders, admin) stay out of
+# search results; every public page is listed in the sitemap, which
+# scripts/build-seo-pages.js writes at deploy time.
+
+User-agent: *
+Disallow: /admin
+Disallow: /account
+Disallow: /cart
+Disallow: /checkout
+Disallow: /orders
+Disallow: /order/
+Disallow: /login
+Disallow: /register
+Disallow: /otp
+
+Sitemap: https://devendraayurved.com/sitemap.xml

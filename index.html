@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!--
@@ -21,7 +21,46 @@
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <!-- Sizes the splash on phones before Flutter installs its own viewport. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Devendra Ayurveda — authentic Ayurvedic wellness store.">
+  <script>
+    // Old links (/#/product/…, from before the app used real paths, and the
+    // order e-mails' /#/order/…) become the path they name, before anything
+    // reads the URL. /x.html and /index (the files GitHub Pages also serves
+    // a page at) become /x and /.
+    (function () {
+      var path = location.hash.indexOf('#/') === 0
+        ? location.hash.slice(1)
+        : location.pathname.replace(/^\/index(\.html)?$/, '/').replace(/\.html$/, '')
+          + location.search + location.hash;
+      if (path !== location.pathname + location.search + location.hash) {
+        history.replaceState(null, '', path);
+      }
+    })();
+  </script>
+
+  <!--
+    Search engines and link previews read this block and the seo-body block:
+    the app itself draws on a canvas they can't read. These are the home
+    page's; scripts/build-seo-pages.js rewrites both, after `flutter build
+    web`, into one HTML file per public page (product/<slug>.html, …).
+  -->
+  <!-- seo-head:start -->
+  <title>Devendra Ayurveda – Authentic Ayurvedic Medicines Online | Since 1971</title>
+  <meta name="description" content="Shop authentic Ayurvedic medicines online from Devendra Ayurveda (Devendra Ayurved Ashram, Muzaffarnagar): tablets, syrups, choornas and oils, since 1971.">
+  <link rel="canonical" href="https://devendraayurved.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Devendra Ayurveda">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:url" content="https://devendraayurved.com/">
+  <meta property="og:title" content="Devendra Ayurveda – Authentic Ayurvedic Medicines Online | Since 1971">
+  <meta property="og:description" content="Shop authentic Ayurvedic medicines online from Devendra Ayurveda (Devendra Ayurved Ashram, Muzaffarnagar): tablets, syrups, choornas and oils, since 1971.">
+  <meta property="og:image" content="https://devendraayurved.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Devendra Ayurveda — since 1971">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://devendraayurved.com/#organization","name":"Devendra Ayurveda","legalName":"Devendra Ayurved Ashram Pvt. Ltd.","alternateName":["Devendra Ayurved","Devendra Ayurved Ashram"],"url":"https://devendraayurved.com/","logo":"https://devendraayurved.com/icons/Icon-512.png","image":"https://devendraayurved.com/og-image.jpg","email":"care.devendraayurved@gmail.com","foundingDate":"1971","founder":{"@type":"Person","name":"Vaid Radhe Shyam Gupta"},"address":{"@type":"PostalAddress","streetAddress":"A-12 Industrial Estate, Meerut Road","addressLocality":"Muzaffarnagar","addressRegion":"Uttar Pradesh","postalCode":"251003","addressCountry":"IN"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Devendra Ayurveda","alternateName":"Devendra Ayurved","url":"https://devendraayurved.com/","publisher":{"@id":"https://devendraayurved.com/#organization"}}</script>
+  <!-- seo-head:end -->
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -32,7 +71,6 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>Devendra Ayurveda</title>
   <link rel="manifest" href="manifest.json">
 
   <!--
@@ -319,7 +357,47 @@
         opacity: 0.35;
       }
     }
+
+    /* The page's text for search engines (and anyone without JavaScript):
+       under the splash while the app loads, then behind the app — under the
+       page background, so it never shows through — and inert. */
+    #seo {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+      color: #2c1b0a;
+      font: 16px/1.6 Georgia, 'Times New Roman', serif;
+    }
+
+    #seo.behind {
+      position: relative;
+      z-index: -1;
+    }
+
+    #seo h1,
+    #seo h2,
+    #seo h3 {
+      color: #1b3b2b;
+      line-height: 1.25;
+    }
+
+    #seo a {
+      color: #0c5730;
+    }
+
+    #seo img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
   </style>
+  <noscript>
+    <style>
+      #splash {
+        display: none;
+      }
+    </style>
+  </noscript>
   <script>
     // Lifts the splash, but never before the lockup has finished assembling
     // (about 1 s from window.__splashStart, 0.45 s with reduced motion):
@@ -338,6 +416,13 @@
     // Safety net: never keep the splash up long after the app has drawn.
     window.addEventListener('flutter-first-frame', function () {
       setTimeout(window.__hideSplash, 4000);
+      // The app now carries the page: its text stays for search engines,
+      // out of sight and out of reach of focus and screen readers.
+      var seo = document.getElementById('seo');
+      if (seo) {
+        seo.inert = true;
+        seo.classList.add('behind');
+      }
     });
   </script>
 
@@ -361,7 +446,7 @@
     // lib/core/ui/backdrop_photos.dart applies the same rule).
     (function () {
       var urls = window.__stockPhotos || {};
-      var route = location.hash.replace(/^#/, '').split('?')[0];
+      var route = location.pathname;
       var name = route === '' || route === '/' ? 'hero-herbs'
         : route === '/cart' ? 'cart-mint'
           : /^\/(login|register|otp)\b/.test(route) ? 'sign-in-leaves'
@@ -383,6 +468,162 @@
 </head>
 
 <body>
+  <!-- seo-body:start -->
+<div id="seo">
+<header>
+<p><a href="/"><strong>Devendra Ayurveda</strong></a> — authentic Ayurvedic medicines since 1971</p>
+<nav aria-label="Shop">
+<a href="/catalog">All products</a> · <a href="/category/tablet">Tablets</a> · <a href="/category/capsule">Capsules</a> · <a href="/category/syrup">Syrups</a> · <a href="/category/choorna">Choorna &amp; Powders</a> · <a href="/category/topical">Balms, Oils &amp; Drops</a> · <a href="/category/classical">Classical Formulations</a> · <a href="/finder">Find by concern</a>
+</nav>
+</header>
+<main>
+<h1>Devendra Ayurveda — Authentic Ayurvedic Medicines Since 1971</h1>
+<p>Ayurveda for everyday wellness. Tablets, syrups, choornas and oils — made the traditional way since 1971.</p>
+<h2>Our story</h2>
+<p>Devendra Ayurved Ashram was established in 1971, by my grandfather and renowned Vaid Radhe Shyam Gupta with the singular objective of providing people with the gift of Indian tradition, sanskriti and knowledge in the form of highest quality Ayurvedic medicines through our manufacturing facility in Muzaffarnagar, Uttar Pradesh.</p>
+<p>Centuries of Ayurveda, perfected by four generations of doctors. Formulated for tomorrow's India.</p>
+<ul>
+<li><strong>100% Ayurvedic</strong> — GMP-certified, since 1971</li>
+<li><strong>Classical recipes</strong> — Made the traditional way</li>
+</ul>
+<h2>Shop by category</h2>
+<ul>
+<li><a href="/category/tablet">Tablets</a> (21)</li>
+<li><a href="/category/capsule">Capsules</a> (15)</li>
+<li><a href="/category/syrup">Syrups</a> (23)</li>
+<li><a href="/category/choorna">Choorna &amp; Powders</a> (6)</li>
+<li><a href="/category/topical">Balms, Oils &amp; Drops</a> (11)</li>
+<li><a href="/category/classical">Classical Formulations</a> (14)</li>
+<li><a href="/finder">Find a remedy by concern</a></li>
+</ul>
+<h2>Featured remedies</h2>
+<ul>
+<li><a href="/product/acidal-plus-syrup">Acidal Plus Syrup</a> — Fast-acting Ayurvedic antacid syrup for gas and acidity</li>
+<li><a href="/product/dee-compound">Dee Compound Syrup</a> — Ayurvedic women's tonic with Ashoka and the five astringent barks</li>
+<li><a href="/product/dhatu-paushtik-choorn">Dhatu Paushtik Choorn</a> — Ayurvedic Dhatu-nourishing powder for strength and vigour</li>
+<li><a href="/product/kufnil">Kufnil Syrup</a> — Anti Cough Formula — an Ayurvedic expectorant syrup</li>
+<li><a href="/product/livopleen-drops">Livopleen Drops</a> — Ayurvedic liver drops for children and adults</li>
+<li><a href="/product/madhumehari-capsule">Madhumehari Capsule</a> — Ayurvedic Prameha capsules with Gudmar, Jamun and Salacia</li>
+<li><a href="/product/retex-special">Retex Special Capsule</a> — Ayurvedic Rasayana capsules for strength, stamina and vitality</li>
+<li><a href="/product/sarsanil-syrup">Sarsanil Syrup</a> — Ayurvedic blood-purifier syrup for clear, healthy skin</li>
+<li><a href="/product/vardhak-capsule">Vardhak Capsule</a> — Ayurvedic strength and stamina capsules with 31 classical herbs</li>
+<li><a href="/product/welabrain-syrup">Welabrain Syrup</a> — Ayurvedic brain-tonic syrup for memory, focus and calm</li>
+</ul>
+<h2>Combo deals</h2>
+<ul>
+<li><a href="/combo/kidney-urinary-care">Kidney &amp; Urinary Care</a> — Traditionally used for Ashmari (urinary stones) and painful urination</li>
+<li><a href="/combo/womens-strength">Women's Strength &amp; Vitality</a> — Iron, calcium and classic tonics for women's everyday strength</li>
+<li><a href="/combo/joint-muscle-comfort">Joint &amp; Muscle Comfort</a> — For back, joint and muscle pain: a tablet inside, a rub outside</li>
+<li><a href="/combo/mens-vitality">Men's Vitality</a> — Rasayana tonics for men's strength, stamina and vigour</li>
+<li><a href="/combo/cough-cold-care">Cough &amp; Cold Care</a> — For a cold, a heavy head and a chesty cough</li>
+<li><a href="/combo/acidity-relief">Acidity Relief</a> — For heartburn, sour belching, gas and bloating</li>
+<li><a href="/combo/winter-care">Winter Care Kit</a> — For itchy winter skin, a blocked nose and burning, tired eyes</li>
+<li><a href="/combo/memory-focus-calm">Memory, Focus &amp; Calm</a> — For students, the elderly and anyone feeling mentally worn out</li>
+<li><a href="/combo/breathing-care">Breathing Care</a> — For a wheezy, tight chest and a lingering cough</li>
+<li><a href="/combo/baby-care">Baby Care</a> — For little tummies: colic, wind, poor appetite and digestion</li>
+<li><a href="/combo/madhumeha-care">Madhumeha Care</a> — Prameha &amp; Madhumeha (traditional use), alongside your diabetes care</li>
+<li><a href="/combo/liver-care">Liver Care</a> — For a sluggish liver, poor appetite and heavy digestion</li>
+<li><a href="/combo/first-aid-kit">Ayurvedic First-Aid Kit</a> — Must-haves for small cuts, boils, aches and pains at home</li>
+</ul>
+<h2><a href="/catalog">All products</a></h2>
+<ul>
+<li><a href="/product/abhyarishta">Abhyarishta</a> — Classical Haritaki Arishta for constipation and piles</li>
+<li><a href="/product/acidal">Acidal Syrup</a> — Ayurvedic syrup for hyperacidity and heartburn</li>
+<li><a href="/product/acidal-plus-capsule">Acidal Plus Capsule</a> — Ayurvedic antacid capsules for acidity and heartburn</li>
+<li><a href="/product/acidal-plus-syrup">Acidal Plus Syrup</a> — Fast-acting Ayurvedic antacid syrup for gas and acidity</li>
+<li><a href="/product/alkacit">Alkacit Syrup</a> — Ayurvedic diuretic syrup for burning or scanty urination</li>
+<li><a href="/product/amritarishta">Amritarishta</a> — Classical Giloy and Dashamoola Arishta for recovery after fever</li>
+<li><a href="/product/anurjana">Anurjana Tablet</a> — Ayurvedic anti-allergy tablets for hives, itching and rashes</li>
+<li><a href="/product/arjuna">Arjuna Tablet</a> — Ayurvedic heart-tonic tablets with Arjuna bark</li>
+<li><a href="/product/arjunarishta">Arjunarishta</a> — A classical Ayurvedic heart tonic, matured from Arjuna bark</li>
+<li><a href="/product/arshochin-capsule">Arshochin Capsule</a> — Ayurvedic capsules for bleeding and non-bleeding piles</li>
+<li><a href="/product/arshochin-tablet">Arshochin Tablet</a> — Ayurvedic tablets for bleeding and non-bleeding piles</li>
+<li><a href="/product/ashokarishta">Ashokarishta</a> — Classical Ayurvedic Arishta of Ashoka bark for women's health</li>
+<li><a href="/product/ashwagandhadi-choorn">Ashwagandhadi Choorn</a> — Classical Ayurvedic Ashwagandha powder for strength and digestion</li>
+<li><a href="/product/ashwagandharishta">Ashwagandharishta</a> — Classical Ayurvedic Arishta of Ashwagandha for strength and calm</li>
+<li><a href="/product/asliv">Asliv Syrup</a> — Sugar-free Ayurvedic liver tonic syrup</li>
+<li><a href="/product/aspain">Aspain</a> — Light Ayurvedic oil for muscular pain</li>
+<li><a href="/product/aspass">Aspass Capsule</a> — Ayurvedic capsules for gas, acidity and stomach ache</li>
+<li><a href="/product/aspydial">Aspydial Syrup</a> — Sugar-free Ayurvedic uterine tonic syrup</li>
+<li><a href="/product/asthama">Asthama Tablet</a> — Ayurvedic tablets for a wheezy, breathless chest</li>
+<li><a href="/product/bal-ghutti">Bal Ghutti Syrup</a> — Ayurvedic gripe syrup for babies' tummy troubles</li>
+<li><a href="/product/balm">Balm</a> — Ayurvedic balm for colds, headache and aches</li>
+<li><a href="/product/burnt-cream">Burnt Cream</a> — Traditional Ayurvedic ointment for minor cuts, boils and cracked heels</li>
+<li><a href="/product/calcurina">Calcurina Tablet</a> — Ayurvedic tablets traditionally used for Ashmari (urinary stones)</li>
+<li><a href="/product/chandnasava">Chandnasava</a> — Classical cooling Ayurvedic Asava of sandalwood</li>
+<li><a href="/product/chandraprabha-vati">Chandraprabha Vati</a> — Classical Ayurvedic tablets for the urinary system and Prameha</li>
+<li><a href="/product/coldrina-capsule">Coldrina Capsule</a> — Ayurvedic capsules for cold, cough and congestion</li>
+<li><a href="/product/coldrina-syrup">Coldrina Syrup</a> — Ayurvedic syrup for cold, cough and a heavy head</li>
+<li><a href="/product/colicon">Colicon Tablet</a> — Ayurvedic tablets for colic, wind and griping pain</li>
+<li><a href="/product/da-pyrine">D.A. Pyrine Tablet</a> — Ayurvedic pain-relief tablets for back, joint and nerve pain</li>
+<li><a href="/product/dazyme">D.A.Zyme Tablet</a> — Ayurvedic digestive-enzyme tablets for gas, colic and a sluggish liver</li>
+<li><a href="/product/dadruna">Dadruna</a> — Ayurvedic ointment for ringworm and itchy skin</li>
+<li><a href="/product/dashmularishta-kr">Dashmularishta (K.R.)</a> — Classical Ayurvedic Arishta of the ten roots — Dashamoolarishta</li>
+<li><a href="/product/dee-compound">Dee Compound Syrup</a> — Ayurvedic women's tonic with Ashoka and the five astringent barks</li>
+<li><a href="/product/dee-kuf">Dee Kuf Syrup</a> — Ayurvedic cough syrup for breathlessness and cough</li>
+<li><a href="/product/dee-kuf-sf">Dee Kuf SF Syrup</a> — Sugar-free Ayurvedic cough syrup</li>
+<li><a href="/product/dev-garlic">Dev Garlic Capsule</a> — Ayurvedic garlic capsules for wind, bloating and Vata</li>
+<li><a href="/product/dev-keshkalp">Dev Keshkalp</a> — Ayurvedic herbal shampoo with Shikakai, Reetha, Amla and Bhringraj</li>
+<li><a href="/product/dhatu-paushtik-choorn">Dhatu Paushtik Choorn</a> — Ayurvedic Dhatu-nourishing powder for strength and vigour</li>
+<li><a href="/product/diareena-m-syrup">Diareena M. Syrup</a> — Ayurvedic syrup for diarrhoea, dysentery and griping</li>
+<li><a href="/product/diareena-m-tablet">Diareena M. Tablet</a> — Ayurvedic tablets for diarrhoea and dysentery</li>
+<li><a href="/product/drakshasava">Drakshasava</a> — Classical Ayurvedic Asava of raisins — a gentle, nourishing tonic</li>
+<li><a href="/product/exliv">Exliv Syrup</a> — Ayurvedic liver tonic syrup with Sarpunkha and Kalmegh</li>
+<li><a href="/product/fertila">Fertila Syrup</a> — Ayurvedic women's reproductive tonic</li>
+<li><a href="/product/gastron">Gastron Tablet</a> — Ayurvedic digestive tablets for gas, bloating and indigestion</li>
+<li><a href="/product/gastron-forte-o">Gastron Forte (O) Tablet</a> — Ayurvedic tablets for acidity, gas, bloating and cramps</li>
+<li><a href="/product/gastron-forte-r">Gastron Forte (R) Tablet</a> — Ayurvedic tablets for acidity, gas, bloating and cramps</li>
+<li><a href="/product/kankoline">Kankoline</a> — Ayurvedic mouth paint for mouth ulcers and sore gums</li>
+<li><a href="/product/karnamrit">Karnamrit</a> — Ayurvedic herbal ear drops for earache</li>
+<li><a href="/product/kufnil">Kufnil Syrup</a> — Anti Cough Formula — an Ayurvedic expectorant syrup</li>
+<li><a href="/product/kumaryasava">Kumaryasava</a> — Classical Ayurvedic Asava of aloe for digestion and the liver</li>
+<li><a href="/product/laxanil">Laxanil Tablet</a> — Ayurvedic laxative tablets for constipation</li>
+<li><a href="/product/livocure-syrup">Livocure Syrup</a> — For Liver Troubles — an Ayurvedic liver tonic syrup</li>
+<li><a href="/product/livocure-tablet">Livocure Tablet</a> — Ayurvedic herbal tablets for liver troubles</li>
+<li><a href="/product/livopleen-syrup">Livopleen Syrup</a> — Ayurvedic liver and spleen tonic syrup</li>
+<li><a href="/product/livopleen-tablet">Livopleen Tablet</a> — Ayurvedic tablets for a sluggish liver and an enlarged spleen</li>
+<li><a href="/product/livopleen-drops">Livopleen Drops</a> — Ayurvedic liver drops for children and adults</li>
+<li><a href="/product/lohasava">Lohasava</a> — Classical Ayurvedic iron tonic (Lohasava) for anaemia and weakness</li>
+<li><a href="/product/lukonil-capsule">Lukonil Capsule</a> — Ayurvedic capsules for white discharge and the weakness it brings</li>
+<li><a href="/product/lukonil-tablet">Lukonil Tablet</a> — Ayurvedic tablets for white discharge and general weakness</li>
+<li><a href="/product/madhumehari-capsule">Madhumehari Capsule</a> — Ayurvedic Prameha capsules with Gudmar, Jamun and Salacia</li>
+<li><a href="/product/madhumehari-tablet">Madhumehari Tablet</a> — Ayurvedic Prameha tablets with Gudmar, Jamun and Salacia</li>
+<li><a href="/product/malanin-capsule">Malanin Capsule</a> — Ayurvedic Jwara capsules with Saptaparna, Kalmegh and Giloy</li>
+<li><a href="/product/malanin-tablet">Malanin Tablet</a> — Ayurvedic Jwara tablets with Mahasudarshan and Godanti</li>
+<li><a href="/product/multivit">Multivit Capsule</a> — Ayurvedic daily wellness capsules for digestion and vitality</li>
+<li><a href="/product/naynamrit">Naynamrit</a> — Ayurvedic herbal eye drops for tired, burning eyes</li>
+<li><a href="/product/pd-capsule">P.D. Capsule</a> — Ayurvedic capsules for painful and irregular periods</li>
+<li><a href="/product/painalgin">Painalgin Tablet</a> — Ayurvedic tablets for headache, body ache and colds</li>
+<li><a href="/product/panchsakar-choorn">Panchsakar Choorn</a> — Classical five-ingredient Ayurvedic laxative powder</li>
+<li><a href="/product/provita">Provita Syrup</a> — Ayurvedic tonic syrup</li>
+<li><a href="/product/punarnavasava">Punarnavasava</a> — Classical Ayurvedic Asava of Punarnava for swelling and the liver</li>
+<li><a href="/product/retex-special">Retex Special Capsule</a> — Ayurvedic Rasayana capsules for strength, stamina and vitality</li>
+<li><a href="/product/rumex">Rumex</a> — Ayurvedic pain-relief liniment for joints, back and sprains</li>
+<li><a href="/product/sarsanil-capsule">Sarsanil Capsule</a> — Ayurvedic blood-purifier capsules for skin health</li>
+<li><a href="/product/sarsanil-syrup">Sarsanil Syrup</a> — Ayurvedic blood-purifier syrup for clear, healthy skin</li>
+<li><a href="/product/satawaryadi-choorn">Satawaryadi Choorn</a> — Ayurvedic five-herb powder for strength and body-building</li>
+<li><a href="/product/satgun-tel">Satgun Tel</a> — Ayurvedic herbal oil for joint pain and muscle strain</li>
+<li><a href="/product/septicure">Septicure</a> — Ayurvedic antiseptic for boils, pimples and minor wounds</li>
+<li><a href="/product/shakti-sudha">Shakti Sudha Syrup</a> — Ayurvedic tonic syrup for strength, stamina and a clear mind</li>
+<li><a href="/product/shilajeet-plus">Shilajeet Plus Capsule</a> — Shilajit capsules with Ashwagandha and Shatavari</li>
+<li><a href="/product/shishupal">Shishupal Syrup</a> — Ayurvedic digestive tonic for babies and young children</li>
+<li><a href="/product/stonil">Stonil Syrup</a> — Ayurvedic urinary syrup traditionally used for Ashmari (stones)</li>
+<li><a href="/product/supari-pak">Supari Pak</a> — Classical Ayurvedic Paka (confection) with Supari</li>
+<li><a href="/product/swadishta-pachak-choorn">Swadishta Pachak Choorn</a> — A tasty Ayurvedic after-meal digestive powder</li>
+<li><a href="/product/tephron-plus">Tephron Plus Capsule</a> — Ayurvedic iron and calcium capsules</li>
+<li><a href="/product/vardhak-capsule">Vardhak Capsule</a> — Ayurvedic strength and stamina capsules with 31 classical herbs</li>
+<li><a href="/product/vardhak-choorna">Vardhak Choorna</a> — Ayurvedic strength and stamina powder with 31 classical herbs</li>
+<li><a href="/product/vednamrit">Vednamrit Tablet</a> — Ayurvedic tablets for headache, toothache and cold aches</li>
+<li><a href="/product/welabrain-syrup">Welabrain Syrup</a> — Ayurvedic brain-tonic syrup for memory, focus and calm</li>
+<li><a href="/product/welabrain-tablet">Welabrain Tablet</a> — Ayurvedic brain-tonic tablets for memory and calm</li>
+<li><a href="/product/yograj-guggul">Yograj Guggul</a> — Classical Ayurvedic Guggulu tablets for joint and Vata pain</li>
+</ul>
+</main>
+<footer>
+<p>Devendra Ayurved Ashram Pvt. Ltd. · A-12 Industrial Estate, Meerut Road, Muzaffarnagar (U.P.) - 251003 · <a href="mailto:care.devendraayurved@gmail.com">care.devendraayurved@gmail.com</a> · Mfg. Lic. No. A-50/77/94 · GMP-certified</p>
+</footer>
+</div>
+  <!-- seo-body:end -->
   <div id="splash" role="img" aria-label="Devendra Ayurveda — since 1971">
     <!-- splash-art:start — generated by scripts/build-splash-art.js -->
     <div class="lockup">
