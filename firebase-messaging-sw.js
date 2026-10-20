@@ -30,7 +30,7 @@ const messaging = firebase.messaging();
 
 messaging.onBackgroundMessage((message) => {
   const notification = message.notification || {};
-  self.registration.showNotification(notification.title || "Devendra Ayurveda", {
+  self.registration.showNotification(notification.title || "Devendra Ayurved", {
     body: notification.body || "",
     icon: "/icons/Icon-192.png",
     data: message.data || {},
