@@ -1,11 +1,11 @@
 {
-    "name": "Devendra Ayurved",
+    "name": "Devendra Ayurved Ashram",
     "short_name": "Devendra",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FDFBF7",
     "theme_color": "#1B3B2B",
-    "description": "Devendra Ayurved — authentic Ayurvedic wellness store.",
+    "description": "Devendra Ayurved Ashram — authentic Ayurvedic wellness store.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

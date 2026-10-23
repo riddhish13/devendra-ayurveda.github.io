@@ -1,4 +1,4 @@
-# Devendra Ayurved — https://devendraayurved.com
+# Devendra Ayurved Ashram — https://devendraayurved.com
 # Shopper-only screens (cart, sign-in, account, orders, admin) stay out of
 # search results; every public page is listed in the sitemap, which
 # scripts/build-seo-pages.js writes at deploy time.
